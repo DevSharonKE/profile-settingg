@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>profile settings</title>
+</head>
+<body>
+
+    <h1>profile settings</h1>
+
+    <form action="/update-profile"method="POST">
+        <!--Name-->
+        <label for="name">Full name:</label><br>
+        <input type="text" id="name" name="name" value="avnishani"><br></br>
+
+        <!--Email-->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" value="Nst@gmail.com"><br><br>
+
+        <!--password-->
+        <label for="password">New password:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+
+        <!--profil picture-->
+        <label for="profil_pic">profile picture</label><br>
+        <input type="file" id="profile_pic" name="profile_pic"><br><br>
+
+        <!--save button-->
+        <button type="submit">save change</button>
+        </form>
+</body>
+</html>
